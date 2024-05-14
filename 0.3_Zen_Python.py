@@ -1,5 +1,3 @@
-# Apenas essa parte do Zen (sem os significados) que foi do curso da Udemy.
-
 '''
 The Zen of Python, por Tim Peters
 
@@ -23,8 +21,6 @@ holandês.
 17. Se a implementação é difícil de explicar, é uma má ideia.
 18. Se a implementação é fácil de explicar, pode ser uma boa ideia.
 19. Namespaces são uma grande ideia -- vamos fazer mais dessas!
-
-
 
 Significados de cada frase:
 
