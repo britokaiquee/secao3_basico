@@ -41,7 +41,7 @@ holandês.
 18. Se a implementação é fácil de explicar, pode ser uma boa ideia.
 19. Namespaces são uma grande ideia -- vamos fazer mais dessas!
 
-
+.
 
 Significados de cada frase:
 
