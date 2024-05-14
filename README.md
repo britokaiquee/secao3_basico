@@ -16,7 +16,7 @@ Projeto contendo minhas pastas e arquivos de estudos com o curso de Python do b√
 
 6 -> exerc√≠cios, parte 2
 
-
+.
 
 The Zen of Python, por Tim Peters
 
