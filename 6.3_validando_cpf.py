@@ -98,14 +98,14 @@ resultado = 0
 while True:
     try:
         cpf = input('Digite seu CPF: ')
-        entrada_sequencial = cpf == cpf[0] * len(cpf)
-        if entrada_sequencial:
-            print('Você enviou dados sequenciais.\n')
-            continue
+        # entrada_sequencial = cpf == cpf[0] * len(cpf)
+        # if entrada_sequencial:
+        #     print('Você enviou dados sequenciais.\n')
+        #     continue
 
         cpf_formatado = f'{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}-{cpf[9:]}'
         nove_digitos = cpf[:9] # os nove primeiros digitados pelo usuário
-        ultimos_digitos = cpf[9:] # os dois últimos
+        ultimos_digitos = cpf[9:] # os dois últimos digitados pelo usuário
 
         if len(cpf) != 11: # pro caso de não ter exatamente 11 números
             print('Digite apenas os onze números.\n')
@@ -196,3 +196,4 @@ if cpf_enviado_usuario == cpf_gerado_pelo_calculo:
     print(f'{cpf_enviado_usuario} é válido')
 else:
     print('CPF inválido')
+   
